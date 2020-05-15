@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sunaco's Portfolio</title>
+
+    <!-- favicon  -->
+    <link rel="icon" type="image/png" href="./img/favicon_bara.png"  sizes="32x32">
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="../html練習/css_jquery/reset.css" />
+
+    <!-- 具体的なスタイルをstyle.cssに記述 -->
+    <link rel="stylesheet" href="./sass/styles.css" />
+
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontAwesome -->
+    <link
+      href="../html練習/fontawesome-free-5.12.1-web/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- jquery -->
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+
+    <!-- javascript -->
+    <script src="./js/styles.js"></script>
+  </head>
+
+  <body class="body">
+    <div id="u-loading">
+      <div class="u-spinner">
+
+      </div>
+    </div>
+
+    
+    
+    <div class="wrap">
+      <!-- header  -->
+      <header class="p-header">
+        <div class="p-header__wrapper u-pt-0-6">
+          <i class="c-icon--navButton">⌘</i>
+          <div class="p-nav__navWrapper">
+            <ul class="p-nav">
+              <div class="c-icon__crossWrapper">
+                <i class="fas fa-times c-icon--cross"></i>
+              </div>
+              <li class="p-nav__item">
+                <a class="c-link" href="#profile">PROFILE</a>
+              </li>
+              <li class="p-nav__item">
+                <a class="c-link" href="#service">SERVICE</a>
+              </li>
+              <li class="p-nav__item">
+                <a class="c-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="p-nav__item">
+                <a class="c-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="p-header__imgWrapper u-tac u-pt-40p-3">
+            <img class="p-header__mainImg" src="./img/header_img.JPG" />
+          </div>
+          <div class="p-header__siteLogo u-mt-3 c-title--big">
+            <img class="c-icon--rose--SP" src="img/b_bara.svg" />
+            <div class="p-header__titleWrapper">
+              <h1 class="p-header__title u-pc-df">
+                SUNACO’s
+                <br class="u-br" />
+                <img class="c-icon--rose--PC u-plr-2rem" src="img/b_bara.svg" />
+                PORTFOLIO
+              </h1>
+            </div>
+          </div>
+          <div class="p-header__arrowWrapper u-tac u-mt-5-2 ">
+            <span class="p-header__arrow"></span>
+          </div>
+        </div>
+      </header>
+
+      <!-- PROFILE  -->
+      <section id="profile" class="p-profile common-inner">
+        <!-- scroll top button -->
+        <div class="c-button--scrollTop" id="scrollTop">
+          <a href="#"></a>
+        </div>
+
+        <div class="c-title__titleBgWrapper">
+          <div class="c-title__titleWrapper">
+            <img class="c-icon--rose u-mr-2" src="./img/b_bara.svg" />
+            <h3 class="c-title--section">PROFILE</h3>
+          </div>
+        </div>
+
+        <div class="p-profile__borderWrapper u-mt-3 u-m0-auto">
+          <div class="p-profile__textSkillWrapper">
+            <div class="p-profile__imgTextWrapper u-fadeIn">
+              <div class="p-profile__profImgWrapper u-mt-3">
+                <div class="p-profile__profImg u-m0-auto"></div>
+              </div>
+
+              <div class="p-profile__textWrapper u-mt-3">
+                <p class="p-profile__name">
+                  ⌘ 砂子
+                  <a href="https://twitter.com/sunacodesu"
+                    ><i class="fab fa-twitter c-icon--twitter"></i>
+                  </a>
+                </p>
+                <p class="p-profile__text u-mt-3">
+                  岡山県在住<br />
+                  2019年9月にWEB制作＆コーディングに出会い、<br />
+                  コードを書く楽しさに感動し、以来、毎日勉強を続けています。<br />
+                  お仕事の納期は厳守し、迅速なレスポンスを心がけます。<br />
+                  お手伝いさせていただける事がございましたら、<br />
+                  どうぞお気軽にお声かけくださいませ。<br /><br />
+                  日本文学、仏教、大正〜昭和のかわいいデザインが好きです。
+                </p>
+              </div>
+            </div>
+
+            <!-- skill  -->
+            <div class="p-skill u-mt-3">
+              <div class="c-title__titleWrapper">
+                <h3 class="c-title--section">••• SKILL •••</h3>
+              </div>
+              <div class="p-skill__itemsWrapper u-fadeIn">
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="fab fa-html5 p-skill__item"></i>
+                  <span class="p-skill__itemText">HTML</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="fab fa-css3-alt p-skill__item"></i>
+                  <span class="p-skill__itemText">CSS</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="p-skill__item">
+                    <img
+                      class="c-icon--skillSvg"
+                      src="./img/icons8-jquery.svg"
+              
+                    />
+                  </i>
+                  <span class="p-skill__itemText">JQUERY</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="p-skill__item">
+                    <img
+                      class="c-icon--skillSvg"
+                      src="./img/icons8-sass.svg"
+              
+                    />
+                  </i>
+                  <span class="p-skill__itemText">SASS</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="fab fa-bootstrap p-skill__item"></i>
+                  <span class="p-skill__itemText">BOOTSTRAP 4</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="p-skill__item">
+                    <img
+                      class="c-icon--skillSvg"
+                      src="./img/icons8-adobe-xd.svg"
+              
+                    />
+                  </i>
+                  <span class="p-skill__itemText">Adobe XD</span>
+                </div>
+                <div class="p-skill__itemWrapper u-mt-3 u-mr-2">
+                  <i class="p-skill__item">
+                    <img
+                      class="c-icon--skillSvg"
+                      src="./img/icons8-adobe-photoshop.svg"
+                    />
+                  </i>
+                  <span class="p-skill__itemText">PhotoShop</span>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service  -->
+      <section id="service" class="p-service common-inner">
+        <div class="c-title__titleBgWrapper">
+          <div class="c-title__titleWrapper">
+            <img class="c-icon--rose u-mr-2" src="./img/b_bara.svg" />
+            <h3 class="c-title--section">SERVICE</h3>
+          </div>
+        </div>
+
+        <div class="p-service__borderWrapper u-mt-3">
+          <div class="p-service__wrapper">
+            <div class="p-service__text">
+              <div class="p-service__itemWrapper u-mt-3 u-fadeIn">
+                <i class="p-service__textIconWrapper">
+                  <img
+                    class="p-service__textIcon c-icon--pc"
+                    src="./img/プログラムアイコン.svg"
+                  />
+                </i>
+                <div class="p-service__textItemWrapper u-mt-3  u-mr-tab-2">
+                  <span class="p-service__textTitle">●コーディング</span>
+                  <br />
+                  PSDカンプなどのデータを元に、HTML・CSS・ｊQueryを用いてコーデ
+                  ィングを行います。<br />
+                  BEMやFLOCSSなどのCSS設計の考えを
+                  ベースに、保守性のあるコード制作を心がけております。<br />
+                </div>
+              </div>
+
+              <div class="p-service__itemWrapper u-fadeIn">
+                <div class="p-service__textIconWrapper u-tac u-mt-3">
+                  <i
+                    class="fas fa-mobile-alt p-service__textIcon--mobile c-icon--mobile"
+                  ></i>
+                </div>
+                <div class="p-service__textItemWrapper u-mt-3">
+                  <span class="p-service__textTitle">●レスポンシブ対応</span>
+                  <br />
+                  スマートフォン、タブレット、デスクトップ、それぞれの画面幅に応じて、どの端末においても<br />ストレスなく閲覧できるよう、レスポンシブ化いたします。<br />
+                  また、レスポンシブ化未対応のサイトをレスポンシブ化することも可能です。<br />
+                  スマートフォンでのサイト閲覧が一般的となっている昨今、レスポンシブ化対応をすることで、サイト閲覧の離脱率を低くすることが可能です。<br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio  -->
+      <section id="portfolio" class="p-portfolio common-inner">
+        <div class="c-title__titleBgWrapper">
+          <div class="c-title__titleWrapper">
+            <img class="c-icon--rose u-mr-2" src="./img/b_bara.svg" />
+            <h3 class="c-title--section">PORTFOLIO</h3>
+          </div>
+        </div>
+
+        <div class="p-portfolio__borderWrapper u-mt-3">
+          <div class="p-portfolio__wrapper">
+            <ul class="p-portfolio__ul u-fadeIn">
+              <li class="p-portfolio__item">
+                <a href="portfolio_01.html" class="p-portfolio__link">
+                  <div class="p-portfolio__img_01">
+                    <p class="p-portfolio__itemText">
+                      【KAGU】<br />
+                      HI-ROKI 様 制作<br />コーディング教材<br /><br />
+                      PSDカンプからの<br />練習コーディング
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="p-portfolio__item">
+                <a href="portfolio_02.html" class="p-portfolio__link">
+                <div class="p-portfolio__img_02">
+                  <p class="p-portfolio__itemText">
+                    【Data mania】<br />
+                    KROWL 様 制作<br />コーディング教材<br />
+                    <br />練習コーディング
+                  </p>
+                </div>
+                </a>
+              </li>
+              <li class="p-portfolio__item">
+                <a href="portfolio_03.html" class="p-portfolio__link">
+
+                <div class="p-portfolio__img_03">
+                  <p class="p-portfolio__itemText"><br />模写コーディング</p>
+                </div>
+              </a>
+              </li>
+              <li class="p-portfolio__item">
+                <a href="portfolio_04.html" class="p-portfolio__link">
+
+                <div class="p-portfolio__img_04">
+                  <p class="p-portfolio__itemText"><br />模写コーディング</p>
+                </div>
+                </a>
+              </li>
+
+              <li class="p-portfolio__item">
+                <a href="portfolio_05.html" class="p-portfolio__link">
+
+                <div class="p-portfolio__img_05">
+                  <p class="p-portfolio__itemText"><br />ポートフォリオサイト</p>
+                </div>
+                </a>
+              </li>
+              <li class="p-portfolio__noItemWrapper">
+                <div class="p-portfolio__noItem">
+                  ...coming soon...
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact  -->
+      <section id="contact" class="p-contact common-inner">
+        <div class="c-title__titleBgWrapper">
+          <div class="c-title__titleWrapper">
+            <img class="c-icon--rose u-mr-2" src="./img/b_bara.svg" />
+            <h3 class="c-title--section">CONTACT</h3>
+          </div>
+        </div>
+
+        <div class="p-contact__borderWrapper u-mt-3">
+          <div class="p-contact__text">
+            お仕事のご相談、ご依頼など、<br class="p-contact__br" />
+            お力になれることがございましたら、<br />
+            <a class="p-contact__snsLink" href="https://twitter.com/sunacodesu"
+              ><i class="fab fa-twitter c-icon--twitter"></i>Twitter
+            </a>
+            のダイレクトメールまで お気軽にご連絡くださいませ。<br />
+            迅速なご返信を心がけております。
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="p-footer u-tac">
+        <small>&copy;2020 Sunaco's portfolio</small>
+      </footer>
+    </div>
+    <!-- /wrap-->
+  </body>
+</html>
