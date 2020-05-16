@@ -468,7 +468,7 @@ h3 {
 }
 
 .p-profile__profImg {
-  background: url("../img/profile_img.jpeg") no-repeat;
+  background: url("https://github.com/sunacodesu/sunaco_portfolio.github.io/blob/master/profile_img.jpeg?raw=true") no-repeat;
   border-radius: 50%;
   border: solid 8px #fff;
   width: 200px;
