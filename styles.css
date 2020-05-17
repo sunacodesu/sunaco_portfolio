@@ -1,35 +1,15 @@
 @charset "UTF-8";
 .common-inner {
-  padding: 8rem 2.4rem;
+  padding: 8rem 1.4rem;
 }
 
 @media (min-width: 768px) {
-  .common-inner_A {
-    max-width: 536px;
-    margin: 0 auto;
+  .common-inner {
+    padding: 8rem 2.4rem;
   }
 }
 
-@media (min-width: 1200px) {
-  .common-inner_A {
-    max-width: 1048px;
-    margin: 0 auto;
-  }
-}
 
-@media (min-width: 768px) {
-  .common-inner__B {
-    max-width: 648px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 1200px) {
-  .common-inner__B {
-    max-width: 1032px;
-    margin: 0 auto;
-  }
-}
 
 .container {
   padding: 0;
@@ -954,7 +934,7 @@ h3 {
 .p-service__text {
   line-height: 1.6;
   background: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
   border: 1px solid #fff;
   border-radius: 2rem;
 }
@@ -970,8 +950,8 @@ h3 {
 
 .p-service__textItemWrapper {
   background: rgba(208, 208, 208, 0.5);
-  padding: 3rem;
-  border-radius: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 .p-service__textIcon {
