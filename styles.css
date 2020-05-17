@@ -644,7 +644,7 @@ h3 {
   background-repeat: no-repeat;
   -webkit-transition: .5s;
   transition: .5s;
-  background-image: url(../img/kagu_mosya.png);
+  background-image: url(https://github.com/sunacodesu/sunaco_portfolio.github.io/blob/master/kagu_mosya.png?raw=true);
 }
 
 .p-portfolio__img_01:hover {
